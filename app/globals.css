@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* لون الخلفية الأساسي للمنصة النقي والمريح (Jagged) */
+    --background: #D5E2E2; 
+    
+    /* لون نصوص العناوين والفقرات (Oak) */
+    --foreground: #382415; 
+
+    /* لون الستيل والبطاقات والقوائم (Emerald Teal) */
+    --primary: #004D44; 
+    --primary-foreground: #FFFFFF; 
+
+    /* لون العناصر الثانوية والبطاقات البيضاء الناصعة لتبرز فوق الخلفية */
+    --card: #FFFFFF;
+    --card-foreground: #382415;
+
+    /* اللون التفاعلي ولإبراز ميزات الذكاء الاصطناعي والإحصائيات (بنفسجي فاتح) */
+    --accent: #E5D5FC; 
+    --accent-foreground: #4A148C;
+
+    /* ألوان الحدود والتحديد */
+    --border: #BDCFCF;
+    --input: #FFFFFF;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, sans-serif;
+}
